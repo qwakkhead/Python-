@@ -1,6 +1,8 @@
 
+# Ask the user what they want to calculate: Voltage, Current, or Resistance.
 conversion_choice = input("Type 'I' to find current, 'V' to find voltage, and 'R' to find resistance: ")
 
+# Ask the user to input the appropriate values.
 if conversion_choice == 'I':
     Voltage = float(input("What is the value of your voltage: "))
     Resistance = float(input("What is the value of your resistance: "))

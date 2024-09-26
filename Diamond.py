@@ -1,3 +1,5 @@
+
+# Ask the user to input their preferred numbers of rows
 n = int(input("Numbers of rows: "))
 if n % 2 == 0:
     print(" Odd integers only. ")
